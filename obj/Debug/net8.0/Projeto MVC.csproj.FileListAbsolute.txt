@@ -135,3 +135,4 @@ G:\Guilherme\Projeto MVC\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime
 G:\Guilherme\Projeto MVC\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 G:\Guilherme\Projeto MVC\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 G:\Guilherme\Projeto MVC\obj\Debug\net8.0\Projeto .60FEEB6B.Up2Date
+G:\Guilherme\Projeto MVC\obj\Debug\net8.0\Projeto MVC.sourcelink.json
