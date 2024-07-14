@@ -1,0 +1,69 @@
+@model Projeto_MVC.Models.Contato
+
+@{
+    ViewData["Title"] = "Deletar contato";
+}
+
+@*
+<hr/>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Deletar">
+            <div class="form-group">
+                <label asp-for="Nome" class="control-label"></label>
+                <input asp-for="Nome" class="form-control" readonly />
+            </div>
+            <div class="form-group">
+                <label asp-for="Telefone" class="control-label"></label>
+                <input asp-for="Telefone" class="form-control" readonly/>
+            </div>
+            <div class="form-group">
+                <label asp-for="Ativo" class="control-label"></label>
+                <input type="checkbox" asp-for="Ativo" class="form-check-input" disabled />
+            </div>
+            <br>
+            <div class="form-group">
+                <input type="submit" value="Deletar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<hr/>
+<br>
+<div>
+    <a asp-action="Index">Voltar</a>
+</div>
+*@
+
+<h1 style="color: red;">Deseja Realmente deletar esse contato? Essa operação é irreversilvel</h1>
+
+<div>
+    <d1 class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(x => x.Nome)
+        </dt>
+        <dt class="col-sm-10">
+            @Html.DisplayFor(x => x.Nome)
+        </dt>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(x => x.Telefone)
+        </dt>
+        <dt class="col-sm-10">
+            @Html.DisplayFor(x => x.Telefone)
+        </dt>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(x => x.Ativo)
+        </dt>
+        <dt class="col-sm-10">
+            @Html.DisplayFor(x => x.Ativo)
+        </dt>
+    </d1>
+</div>
+
+<form asp-action="Deletar">
+    <input type="submit" value="Deletar" class="btn btn-danger"/>
+</form>
+
+<br>
+<a asp-action="Index">Voltar</a>
